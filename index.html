@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 - Web Frontend Development I - Odeh Sylvester</title>
+    <meta name="description" content="Home page">
+    <meta name="author" content="Odeh Sylvester">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <script src="scripts/lastupdate.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="autor">
+            <img src="images/sylvan.byuidaho (2).webp" class="profile-pic" alt="Odeh Sylvester">
+            <h1 class="name">Sylvester O. Odeh</h1>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </section>
+        <div class="navbar">
+            <nav>
+                <ul class="navbar-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chamber.html">Chamber</a></li>
+                    <li><a href="https://github.com/sylvanhub/wdd231">GitHub Profile</a></li>
+                    <li><a href="https://www.linkedin.com/in/odehsylvesterohegham">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id = "section">
+            <div class="course-work">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        
+            <div class="place">
+                <h2>Ibadan, Nigeria</h2>
+                <img class="place-img" src="images/ibadan-66ef3b68830a5.webp" alt="Scenic view of Ibadan, Nigeria">
+                <p>Top view</p>
+            </div>
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="certificate-options">
+                <button id="allCourses">All</button>
+                <button id="cseCourses">CSE</button>
+                <button id="wddCourses">WDD</button>
+            </div>
+            <div id="courseList"></div>
+            <div class="total-credits">
+                <h3>Total Credits: <span id="totalCredits"></span></h3>
+            </div>
+            <div class ="Completed-Credits">
+                <h3>Completed Course Credits: <span id="CompletedCredits"></span></h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            <span class="copyrightIcon">&#169;</span>
+            <span class="currentyear"></span> -
+            <span class="authorName">Sylvester O. Odeh</span> -
+            <span class="country">Nigeria</span>
+        </p>
+        <p class="lastModified"></p>
+    </footer>
+</body>
+</html>
