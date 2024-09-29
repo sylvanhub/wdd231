@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       members.forEach(member => {
           const card = document.createElement("section");
           const name = document.createElement("h3");
-          const image = document.createElement("img");
+          const image = document.createElement("image");
           const info = document.createElement("div");
   
           info.textContent = `${member.phone} || ${member.email} || ${member.address}`;

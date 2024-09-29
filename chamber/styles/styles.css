@@ -247,7 +247,6 @@ footer p {
         overflow: hidden;
         width: 100%;
         transition: max-width 0.9s ease-in-out;
-
     }
     .navLinks a{
         display: block;
@@ -256,7 +255,6 @@ footer p {
         cursor: pointer;
         margin: 10px;
         gap: 20px;
-
     }
     .navLinks.open {
         max-height: 300px;
