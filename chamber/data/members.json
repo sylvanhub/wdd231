@@ -6,7 +6,7 @@
       "address": "123 Business Rd",
       "phone": "123-456-7890",
       "website": "http://companya.com",
-      "image": "images/companyA.png",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/chi%20farm.webp",
       "membership": 3
     },
     {
