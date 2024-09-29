@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const image = document.createElement("img");
           const info = document.createElement("div");
   
-          info.textContent = `${member.phone} || ${member.address}|| ${member.website}`;
+          info.textContent = `${member.phone} || ${member.address} || ${member.website}`;
           name.textContent = member.name;
   
           image.setAttribute("src", member.image);
