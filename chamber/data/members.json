@@ -14,7 +14,7 @@
       "address": "456 Industrial Ave",
       "phone": "987-654-3210",
       "website": "http://companyb.com",
-      "image": "images/companyB.png",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
       "membership": 2
     },
     {
@@ -22,7 +22,7 @@
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "images/sylvan.byuidaho (2).webp",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
       "membership": 1
     }
   ]
