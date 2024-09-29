@@ -1,0 +1,46 @@
+/* Normalize.css - This file ensures consistent default styling across different browsers */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+/* HTML5 display definitions */
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content */
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 2 */
+    overflow: visible; /* 3 */
+}
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics */
+a {
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/* Embedded content */
+img {
+    border-style: none;
+}

@@ -1,0 +1,288 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 96%);
+    color: hsl(0, 0%, 20%);
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+footer {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1rem;
+}
+footer p {
+    margin: 0.5rem 0;
+}
+.autor {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+.autor h1 {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+}
+.autor p {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    color: hsl(0, 0%, 80%);
+}
+#hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.navbar {
+    background-color: hsl(0, 0%, 27%);
+    padding: 10px;
+}
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.navLinks li {
+    margin: 0 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+.navLinks a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+}
+.navLinks li:hover{
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+.navLinks li.current-menu-item  {
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+
+
+/* Main content */
+.main {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Chamber Members Section */
+.maindirectory {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.maindirectory h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: hsl(41, 88%, 57%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.maindirectory div {
+    text-align: center;
+    margin-top: 1rem;
+}
+.maindirectory button {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
+.maindirectory button:hover {
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+/* Grid view */
+.grid #cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+/* List view */
+.list #cards {
+    display: block;
+}
+
+.list #cards section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.list #cards section img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+
+
+
+/* Container for cards */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+/* Card styles */
+#cards section {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#cards section:hover {
+    transform: scale(1.05);
+}
+
+/* Card image styling */
+#cards section img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
+/* Card name styling */
+#cards section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Info text */
+#cards section div {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 20%);
+    line-height: 1.5;
+}
+
+/* List layout styling */
+.list #cards section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.list #cards section img {
+    margin-right: 15px;
+}
+
+.list #cards section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .autor {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        transition:  0.3s ease-in-out;
+        overflow: hidden;
+        width: 100%;
+        transition: 0.9s ease-in-out;
+
+    }
+    .navLinks a{
+        display: block;
+        transition: 0.9s ease-in-out;
+    }
+    .navLinks li{
+        cursor: pointer;
+        margin: 10px;
+        gap: 20px;
+        transition: 0.9s ease-in-out;
+
+    }
+    .navLinks.open {
+        max-height: 300px;
+        display: flex;
+        transition: 0.9s ease-in-out;
+
+    }
+    .navLinks li.current-menu-item a {
+        background-color: hsl(41, 88%, 57%);
+        color: hsl(0, 0%, 20%);
+    }
+    #hamburger {
+        display: block;
+        padding: 10px;
+        gap: 20px;
+    }
+    
+    #cards {
+        display: block;
+        gap: 20px;
+    }
+    #cards section{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Company A",
+      "address": "123 Business Rd",
+      "phone": "123-456-7890",
+      "website": "http://companya.com",
+      "image": "images/companyA.png",
+      "membership": 3
+    },
+    {
+      "name": "Company B",
+      "address": "456 Industrial Ave",
+      "phone": "987-654-3210",
+      "website": "http://companyb.com",
+      "image": "images/companyB.png",
+      "membership": 2
+    },
+    {
+      "name": "Company C",
+      "address": "789 Corporate St",
+      "phone": "321-654-0987",
+      "website": "http://companyc.com",
+      "image": "images/companyC.png",
+      "membership": 1
+    }
+  ]
+  
