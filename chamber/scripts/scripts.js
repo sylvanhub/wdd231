@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
     // Company Members
-    const url = "https:/https://sylvanhub.github.io/wdd231/chamber/data/members.json";
+    const url = "hchamberttps:/https://sylvanhub.github.io/wdd231/chamber/directory/data/members.json";
   const cards = document.getElementById("cards");
   
   async function getMemberData() {
