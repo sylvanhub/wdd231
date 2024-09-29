@@ -241,31 +241,27 @@ footer p {
         align-items: center;
     }
     .navLinks {
-        display: none;
         flex-direction: column;
         text-align: center;
         transition:  0.3s ease-in-out;
         overflow: hidden;
         width: 100%;
-        transition: 0.9s ease-in-out;
+        transition: max-width 0.9s ease-in-out;
 
     }
     .navLinks a{
         display: block;
-        transition: 0.9s ease-in-out;
     }
     .navLinks li{
         cursor: pointer;
         margin: 10px;
         gap: 20px;
-        transition: 0.9s ease-in-out;
 
     }
     .navLinks.open {
         max-height: 300px;
-        display: flex;
+        display: block;
         transition: 0.9s ease-in-out;
-
     }
     .navLinks li.current-menu-item a {
         background-color: hsl(41, 88%, 57%);
