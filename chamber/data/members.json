@@ -24,6 +24,38 @@
       "website": "http://companyc.com",
       "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
       "membership": 1
+    },
+    {
+      "name": "Company C",
+      "address": "789 Corporate St",
+      "phone": "321-654-0987",
+      "website": "http://companyc.com",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
+      "membership": 1
+    },
+    {
+      "name": "Company C",
+      "address": "789 Corporate St",
+      "phone": "321-654-0987",
+      "website": "http://companyc.com",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
+      "membership": 1
+    },
+    {
+      "name": "Company C",
+      "address": "789 Corporate St",
+      "phone": "321-654-0987",
+      "website": "http://companyc.com",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
+      "membership": 1
+    },
+    {
+      "name": "Company C",
+      "address": "789 Corporate St",
+      "phone": "321-654-0987",
+      "website": "http://companyc.com",
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
+      "membership": 1
     }
   ]
 }
