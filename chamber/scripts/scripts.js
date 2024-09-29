@@ -72,13 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
       members.forEach(member => {
           const card = document.createElement("section");
           const name = document.createElement("h3");
-          const image = document.createElement("image");
+          const image = document.createElement("img");
           const info = document.createElement("div");
   
-          info.textContent = `${member.phone} || ${member.email} || ${member.address}`;
+          info.textContent = `${member.phone} || ${member.address}|| ${member.website}`;
           name.textContent = member.name;
   
-          image.setAttribute("src", member.img);
+          image.setAttribute("src", member.image);
           image.setAttribute("alt", `The brand icon of ${member.name}`);
           image.setAttribute("loading", "lazy");
           image.setAttribute("width", "200");

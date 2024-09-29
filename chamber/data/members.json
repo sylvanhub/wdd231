@@ -2,60 +2,53 @@
 { 
   "members": [  
   {
-      "name": "Company A",
-      "address": "123 Business Rd",
+      "name": "Chi Farm Limited",
+      "address": "Ibadan",
       "phone": "123-456-7890",
-      "website": "http://companya.com",
+      "website": "http://Chifarmlimitednya.com",
       "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/chi%20farm.webp",
-      "membership": 3
     },
     {
-      "name": "Company B",
-      "address": "456 Industrial Ave",
+      "name": "Foodco Limited",
+      "address": "Ibadan",
       "phone": "987-654-3210",
-      "website": "http://companyb.com",
+      "website": "http://foodco.com",
       "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 2
     },
     {
-      "name": "Company C",
+      "name": "Pepsi" ,
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 1
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/pepsi.webp",
     },
     {
-      "name": "Company C",
+      "name": "Sweetco Food Limited",
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 1
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/sweetco-logo.webp",
     },
     {
-      "name": "Company C",
+      "name": "Waw",
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 1
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/waw.webp",
     },
     {
-      "name": "Company C",
+      "name": "Yale",
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 1
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/yale.webp",
     },
     {
-      "name": "Company C",
+      "name": "Zartech Limited",
       "address": "789 Corporate St",
       "phone": "321-654-0987",
       "website": "http://companyc.com",
-      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/foodco.webp",
-      "membership": 1
+      "image": "https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/chamber/images/zartech.webp",
     }
   ]
 }
