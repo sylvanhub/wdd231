@@ -18,21 +18,19 @@ const cnt = "24"; // Number of forecast points
 
 // Fetch city name using Reverse Geocoding API
 async function getCityName() {
-    const reverseGeoUrl = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=1&appid=${key}`;
+    const reverseGeoUrl = `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=1&appid=${key}`;
     
     try {
         const response = await fetch(reverseGeoUrl);
-        if (response.ok) {
-            const geoData = await response.json();
-            if (geoData.length > 0) {
-                const { name } = geoData[0];
-                city.innerHTML = name; // Set the city name
-                fetchWeatherData(lat, lon); // Fetch weather data using coordinates
-            } else {
-                throw new Error("City name not found");
-            }
+        if (!response.ok) throw new Error("Failed to fetch city name");
+        
+        const geoData = await response.json();
+        if (geoData.length > 0) {
+            const { name } = geoData[0];
+            city.innerHTML = name; // Set the city name
+            fetchWeatherData(lat, lon); // Fetch weather data using coordinates
         } else {
-            throw new Error("Failed to fetch city name");
+            throw new Error("City name not found");
         }
     } catch (error) {
         console.log("Error fetching city name:", error);
@@ -47,24 +45,20 @@ async function fetchWeatherData(lat, lon) {
     try {
         // Fetch current weather
         const response = await fetch(weatherUrl);
-        if (response.ok) {
-            const data = await response.json();
-            displayWeather(data);
-            console.log(data);
-        } else {
-            throw new Error("Error fetching weather data");
-        }
+        if (!response.ok) throw new Error("Error fetching weather data");
+        
+        const data = await response.json();
+        displayWeather(data);
+        console.log(data);
 
         // Fetch weather forecast
         const forecastResponse = await fetch(forecastUrl);
-        if (forecastResponse.ok) {
-            const forecastData = await forecastResponse.json();
-            console.log(forecastData);
-            displayForecast(forecastData);
-        } else {
-            throw new Error("Error fetching forecast data");
-        }
-
+        if (!forecastResponse.ok) throw new Error("Error fetching forecast data");
+        
+        const forecastData = await forecastResponse.json();
+        console.log(forecastData);
+        displayForecast(forecastData);
+        
     } catch (error) {
         console.log(error);
     }
@@ -86,18 +80,18 @@ function displayWeather(data) {
 // Display 3-day forecast
 function displayForecast(data) {
     const forecastList = data.list.filter((item, index) => index % 8 === 0).slice(0, 3);
-
+    
     forecastList.forEach((forecast, i) => {
         const date = new Date(forecast.dt * 1000);
         const dayName = i === 0 ? 'Today' : date.toLocaleDateString(undefined, { weekday: 'long' });
-        const temperature = Math.round(forecast.main.temp);
+        const temp = Math.round(forecast.main.temp);
         
         if (i === 0) {
-            document.querySelector("#today").innerHTML = `Today: <strong>${temperature}°C</strong>`;
+            document.querySelector("#today").innerHTML = `Today: <strong>${temp}°C</strong>`;
         } else if (i === 1) {
-            document.querySelector("#day1").innerHTML = `${dayName}: <strong>${temperature}°C</strong>`;
+            document.querySelector("#day1").innerHTML = `${dayName}: <strong>${temp}°C</strong>`;
         } else if (i === 2) {
-            document.querySelector("#day2").innerHTML = `${dayName}: <strong>${temperature}°C</strong>`;
+            document.querySelector("#day2").innerHTML = `${dayName}: <strong>${temp}°C</strong>`;
         }
     });
 }
