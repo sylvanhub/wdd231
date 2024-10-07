@@ -226,4 +226,11 @@
         margin: 0;
         width: auto;
     }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        margin-bottom: 20px;
+    }
 }

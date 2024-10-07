@@ -1,74 +1,74 @@
+// Company Members
+const url = "https://sylvanhub.github.io/wdd231/chamber/data/members.json";
+const cards = document.getElementById("cards");
+const membershipContainer = document.getElementById("membership-container"); // New container for memberships
 
+async function getMemberData() {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Network response was not ok');
+        const data = await response.json();
+        
+        console.log('Fetched members:', data.members); // Log fetched members for debugging
+        displayMembers(data.members);
+        displayRandomMemberships(data.members);
+    } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
+    }
+}
+getMemberData();
 
-  // Company Members
-  const url = "https://sylvanhub.github.io/wdd231/chamber/data/members.json";
-  const cards = document.getElementById("cards");
-  const membershipContainer = document.getElementById("membership-container"); // New container for memberships
+// Function to display the fetched members on the webpage
+const displayMembers = (members) => {
+    cards.innerHTML = ""; // Clear previous cards
+    members.forEach(member => {
+        const card = document.createElement("section");
+        const name = document.createElement("h3");
+        const info = document.createElement("div");
+        const line = document.createElement("hr");
 
-  
-  async function getMemberData() {
-      try {
-          const response = await fetch(url);
-          if (!response.ok) throw new Error('Network response was not ok');
-          const data = await response.json();
-          displayMembers(data.members);
-          displayRandomMemberships(data.members);
-      } catch (error) {
-          console.error('There has been a problem with your fetch operation:', error);
-      }
-  }
-  getMemberData();
-  
-  // Function to display the fetched members on the webpage
-  const displayMembers = (members) => {
-      members.forEach(member => {
-          const card = document.createElement("section");
-          const name = document.createElement("h3");
-          const info = document.createElement("div");
-          const line = document.createElement("hr");
-  
-          info.textContent = `${member.phone} || ${member.email} || ${member.address}`;
-          name.textContent = `${member.name}  `;
-  
-          image = new Image();
-          image.src = member.img;
-          image.alt = `The brand icon of ${member.name}`;
-  
-          image.onload = function () {
-              const width = this.naturalWidth;
-              const height = this.naturalHeight;
-              image.setAttribute("width", width);
-              image.setAttribute("height", height);
-          };
-  
-          card.appendChild(name);
-          card.appendChild(line);
-          card.appendChild(image);
-          card.appendChild(info);
-          cards?.appendChild(card);
-      });
-  };
-  
+        info.textContent = `${member.phone} || ${member.email} || ${member.address}`;
+        name.textContent = `${member.name}  `;
+
+        const image = new Image();
+        image.src = member.img;
+        image.alt = `The brand icon of ${member.name}`;
+
+        image.onload = function () {
+            const width = this.naturalWidth;
+            const height = this.naturalHeight;
+            image.setAttribute("width", width);
+            image.setAttribute("height", height);
+        };
+
+        card.appendChild(name);
+        card.appendChild(line);
+        card.appendChild(image);
+        card.appendChild(info);
+        cards?.appendChild(card);
+    });
+};
 
 // Function to filter
 function filterGoldSilver(members) {
     return members.filter(member => member.membership === "Gold" || member.membership === "Silver");
 }
+
 // Function to shuffle
 function getRandomMemberships(members) {
     const filteredMembers = filterGoldSilver(members);
     const shuffled = filteredMembers.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, 3);
 }
+
 // Function to display memberships
 function displayRandomMemberships(members) {
     const randomMemberships = getRandomMemberships(members);
-    const cards = document.querySelector("#membership-container");
-    // cards.innerHTML = "";
+    membershipContainer.innerHTML = ""; // Clear previous memberships
 
     randomMemberships.forEach(member => {
         const card = document.createElement("section");
-        
+
         // Create name heading element
         const name = document.createElement("h3");
         name.textContent = `${member.name}`;
@@ -93,13 +93,6 @@ function displayRandomMemberships(members) {
         const details = document.createElement("div");
         details.classList.add("details");
 
-        // const phone = document.createElement("div");
-        // phone.textContent = `Phone: ${member.phone}`;
-        // const email = document.createElement("div");
-        // email.textContent = `Email: ${member.email}`;
-        // const address = document.createElement("div");
-        // address.textContent = `Address: ${member.address}`;
-
         const phone = document.createElement("div");
         const phoneLabel = document.createElement("span");
         phoneLabel.textContent = "Phone: ";
@@ -121,7 +114,6 @@ function displayRandomMemberships(members) {
         address.appendChild(addressLabel);
         address.appendChild(document.createTextNode(member.address));
 
-
         details.appendChild(phone);
         details.appendChild(email);
         details.appendChild(address);
@@ -136,7 +128,6 @@ function displayRandomMemberships(members) {
         card.appendChild(detailsContainer);
 
         // Append the card to the container
-        cards.appendChild(card);
+        membershipContainer.appendChild(card);
     });
 }
-
