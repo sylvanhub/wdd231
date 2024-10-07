@@ -80,7 +80,7 @@ function displayRandomMemberships(members) {
 
         // Create image element
         const image = new Image();
-        image.src = member.img;
+        image.src = member.image;
         image.alt = `The brand icon of ${member.name}`;
         image.onload = function () {
             const width = this.naturalWidth;
