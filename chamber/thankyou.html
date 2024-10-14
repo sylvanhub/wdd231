@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="styles/join.css">
     <script src="scripts/join.js" defer></script>
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -41,62 +43,11 @@
                 </ul>
             </nav>
         </div>
-    
 
     <main>
-        <section id="join-section">
-            <div id="form-section">
-                <h1>Member Application Form</h1>
+        <h1>Welcome to Chamber of Commerce</h1>
 
-                <form method="GET" action="thankyou.html" class="designOne">
-                    <label>First Name <input type="text" name="first" 
-                        required autocomplete="given-name" title="Your First Name"></label>
-
-                    <label>Last Name <input type="text" name="last" 
-                        required autocomplete="family-name" title="Your Last Name"></label>
-
-                    <label for="title">Organization title: <input type="text" name="orgTitle" id="title" 
-                        autocomplete="organization-title" pattern="[a-zA-Z\-\s]{7,}"></label>
-
-                    <label>Email <input type="email" name="email" required placeholder="example@gmail.com"
-                        title="Your Email" autocomplete="email"></label>
-
-                    <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" 
-                        title="A Phone Number with dashes" placeholder="123-000-1234" ></label>
-
-                <h3>Organization Information</h3>
-                    <label for="orgName">Organization Name: <input type="text" name="orgName" id="orgName"
-                        autocomplete="organization" required></label>
-                    <label for="orgDescription">Organization Description: 
-                        <textarea name="orgDescription" id="orgDescription"></textarea></label>
-
-                <h3>Membership Level</h3>
-                    <label><input type="radio" name="member" value="Baptism" > NP Membership</label>
-                    <label><input type="radio" name="member" value="Initiatory"> Gold Membership</label>
-                    <label><input type="radio" name="member" value="Endowment"> Silver Membership</label>
-                    <label><input type="radio" name="member" value="Sealing"> Bronze Membership</label>
-
-                <input type="hidden" name="timestamp" id="timestamp">
-
-                <div class="submit">
-                    <input type="submit" value="Apply For Membership">
-                </div>
-                </form>
-            </div>
-
-            <div id="member">
-                <h2 id = "member-title">Membership Levels Information</h2>
-                <div id="member-card"></div>
-                <dialog id="mydialog">
-                    <div>
-                        <h2 id="dialog-title">Sample Title</h2>
-                        <button id="close-dialog">X</butt
-                            on>
-                      </div>
-                      <p id="dialog-content"></p>
-                </dialog>
-            </div>
-        </section>
+        <div id="results"></div>
     </main>
 
     <footer>
