@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  background-color: #1a73e8;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Circular logo styles */
+.logo {
+  width: 80px; /* Set width */
+  height: 80px; /* Set height */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Banner image styles */
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  color: #1a73e8;
+  border-bottom: 2px solid #1a73e8;
+  padding-bottom: 5px;
+}
+
+.section p {
+  margin: 10px 0;
+}
+
+/* Wireframe styles */
+.wireframe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.wireframe div {
+  width: 48%;
+}
+
+.wireframe img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a73e8;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-container .address {
+  margin-bottom: 10px;
+}
+
+.footer-container .social-media {
+  margin: 10px 0;
+}
+
+.footer-container .social-media img {
+  margin: 0 5px;
+}
+
+/* Developer info styles */
+.developer {
+  margin-top: 15px;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.currentyear, .authorName, .Website {
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .header-images {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .wireframe {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .wireframe div {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
