@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; /* Ensures text is visible with fallback font */
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+         url('fonts/Roboto-Regular.woff') format('woff');
+}
+  
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 20%);
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.autor {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-pic {
+    width: 50px;
+    height: 47px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+.autor h1 {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+}
+.autor p {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    color: hsl(0, 0%, 90%);
+}
+#hamburger {
+    display: none;
+}
+.navbar {
+    background-color: hsl(0, 0%, 27%);
+    padding: 10px;
+}
+.navLinks {
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.navLinks li {
+    margin: 0 10px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    text-align: center;
+}
+.navLinks a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+}
+.navLinks li:hover{
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+.navLinks li.current-menu-item  {
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+
+
+
+/* Main content */
+.main {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Chamber Members Section */
+.maindirectory {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.maindirectory h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    background-color: hsl(41, 88%, 57%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.maindirectory div {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+}
+.maindirectory button {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
+.maindirectory button:hover {
+    background-color: hsl(41, 88%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+
+
+
+
+
+
+/* Container for cards */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+#cards section {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#cards section:hover {
+    transform: scale(1.05);
+}
+#cards section img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+#cards section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0%);
+}
+#cards section div {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    line-height: 1.5;
+}
+/* Grid view */
+.grid #cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+/* List view */
+.list #cards {
+    display: block;
+}
+.list #cards section {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    text-align: start;
+    padding: 15px;
+    gap: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 95%);
+}
+.list #cards section img {
+    display: none;
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.list #cards section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    text-align: start;
+}
+hr{
+    color: red;
+}
+
+
+/* General Footer Styles */
+footer {
+    background-color: hsl(0, 0%, 80%);
+    padding: 20px;
+    margin: 10px;
+    color: hsl(0, 0%, 0%);
+}
+.footer-container {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: 0; 
+}
+.address{
+    align-items: start;
+    text-align: start;
+    justify-content: left;
+}
+.address-name{
+    font-size: 1rem;
+}
+.social-media a{
+    padding: 10px;
+    margin: 10px ;
+}
+.developer p{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+.copyrightIcon {
+    margin: 0px;
+}
+
+
+
+
+
+/* Discover page */
+#discover-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+#event, #nationality, #city{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+}
+#event p{
+    text-align: center;
+    padding: 10px;
+}
+#nationality h3{
+    padding: 10px;
+}
+#nationality ul{
+    padding-left: 30px;
+}
+
+#city{
+    display: flex;
+    flex-direction: column;
+}
+#city img{
+    align-self: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#city h3{
+    text-align: center;
+}
+#city p{
+    padding: 10px;
+}
+#event h2, #nationality h2, #city h2{
+    background-color: hsl(41, 88%, 57%);
+    text-align: center;
+}
+#discover-site{
+    width: 70%;
+    padding-left: 20px;
+}
+#discover-site img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#discover-site h2{
+    text-align: center;
+}
+.site-container{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+    /* border: 1px solid; */
+    padding: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .autor {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navLinks{
+        max-height: 0;
+        flex-direction: column;
+        text-align: center;
+        transition:  max-height 0.5s ease-in-out;
+        overflow: hidden;
+        width: 100%;
+    }
+    .navLinks.open {
+        max-height: 300px;
+        display: flex;
+    }
+    .navLinks li{
+        cursor: pointer;
+        margin: 10px;
+        gap: 20px;
+    }
+    .navLinks.open {
+        max-height: 300px;
+        display: block;
+    }
+    .navLinks li.current-menu-item a {
+        background-color: hsl(41, 88%, 57%);
+        color: hsl(0, 0%, 0%);
+    }
+    #hamburger {
+        display: block;
+        padding: 10px;
+        gap: 20px;
+        font-size: 2rem;
+        background: none;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #cards {
+        display: block;
+        gap: 20px;
+    }
+    #cards section{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .address, .social-media, .developer{
+        padding: 10px;
+    }
+    #discover-main{
+        flex-direction: column;
+    }
+    #sidebar, #discover-site {
+        width: 100%;
+        padding: 0; 
+      }
+      /* #about-pic {
+        padding-top: 20px;
+      }
+      #sidebar {
+        margin-bottom: 20px;
+      } */
+}
