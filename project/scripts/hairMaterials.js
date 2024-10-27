@@ -3,8 +3,11 @@
 // Function to fetch hair materials from JSON file
 async function fetchhairMaterials() {
     try {
-        const response = await fetch('hhttps://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/project/data/activities.json'); // Update the path as needed
-        if (!response.ok) {
+        // const response = await fetch('https://raw.githubusercontent.com/sylvanhub/wdd231/refs/heads/main/project/data/activities.json'); // Update the path as needed
+        // const resp = await fetch('https://raw.githubusercontent.com/sylvanhub/wdd231/project/data/activities.json'); // Update the path as needed
+        const url = "https://sylvanhub.github.io/wdd231/project/data/activities.json";
+
+        // if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const hairMaterials = await response.json();
