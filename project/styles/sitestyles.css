@@ -1,65 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+/* Hair materials styles */
+.hair-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #ffffff; /* Background for hair items */
+}
+
+.hair-item h3 {
+  margin: 0 0 5px 0; /* Margin for item titles */
+}
+
+.hair-item p {
+  margin: 5px 0; /* Margin for item description and price */
+}
+
+
+/* Body styles */
+body {
+  background-color: #f0f4f8; /* Secondary color */
+  font-family: 'Roboto', 'Rock Salt', Arial, sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #1a73e8; /* Primary color */
+    color: white; /* Text color set to white */
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Logo styles */
+.logo {
+    width: 80px; /* Set width */
+    height: 80px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Container styles */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/* Form container styles */
 #complaint-form-container {
-  display: none;
-  position: absolute;
-  top: 60px; 
-  right: 20px;
-  background: #04AA6D
-  border: 1px solid #ccc;
-  padding: 20px;
-  z-index: 1000;
+    display: none;
+    position: absolute;
+    top: 60px; 
+    right: 20px;
+    background: #04AA6D; /* Adjusted background */
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
 }
 
+/* Form styles */
 #complaintForm label {
-  display: block;
-  margin-top: 10px;
+    display: block;
+    margin-top: 10px;
 }
 
 #complaintForm input, #complaintForm textarea {
-  width: 100%;
-  padding: 5px;
-  margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
 }
 
-
-#logo_link {  
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;    
-}
-.logo{
-  border-radius: 50%;
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 100px;
+    margin-bottom: -100px;
 }
 
-.logo {
-    width: 80px;
-}
-
-body {
-    background-color: #2c6e49;
-    font-family: 'Roboto', 'Rock Salt', Arial, sans-serif;
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-}
-
-.home-visitors {
+/* Home visitor and activities styles */
+.home-visitors, .activities-visitors {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 100px;
     margin-inline: 100px;
 }
-.activities-visitors{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  margin-top: 100px;
-  margin-inline: 100px;
-}
 
+/* Specific visitor styles */
 .Mr-gabriel {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -68,67 +108,55 @@ body {
     grid-column: 3/4;
     grid-row: 2/3;
 }
-.training{
-  grid-column: 6/6;
-  grid-row: 2/3;
-  color: #f1f1f1;
-
+.training {
+    grid-column: 6/6;
+    grid-row: 2/3;
+    color: #f1f1f1;
 }
-#training-img{
-  width: 500px;
-  height: 500px;
+#training-img {
+    width: 500px;
+    height: 500px;
 }
 .miss-ilori {
     grid-column: 5/6;
     grid-row: 2/3;
 }
-.john{
-  grid-column: 1/2;
-  grid-row: 3/4;
-  color: #f1f1f1;
+.john {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #f1f1f1;
 }
-.msg2{
-  grid-column: 3/6;
-  grid-row: 2/3;
-  color: #f1f1f1;
+.msg2 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    color: #f1f1f1;
 }
-.home-visitor3{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  margin-inline: 100px;
-  margin-top: 100px;
+.home-visitor3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-inline: 100px;
+    margin-top: 100px;
 }
-.msg3{
-  grid-column: 1/5;
-  grid-row: 2/3;
-  color: #ccc;
+.msg3 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    color: #ccc;
 }
 .msg {
     grid-column: 1/6;
     grid-row: 4;
 }
 
+/* Visitor image styles */
 #visitor1-img {
     width: 100%;
     height: 2200px;
 }
 
-header {
-    background-color: #d68c45;
-    display: grid;
-    grid-template-columns: 100px auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    margin-inline: 100px;
-    margin-bottom:-100px;
-}
-
+/* Footer styles */
 footer {
-    background-color: #4c956c;
-    color: white;
+    background-color: #1a73e8; /* Primary color */
+    color: white; /* Text color set to white */
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -136,7 +164,7 @@ footer {
     align-items: center;
 }
 
-footer .social img  { 
+footer .social img { 
     padding-top: 15px;
 }
 
@@ -151,74 +179,93 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
 /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
-  }
-  
-  /* Full-width inputs */
-  input[type=text], input[type=password] {
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
     width: 200px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #04AA6D;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D; /* Adjusted background */
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 200px;
-  }
-  
-  /* Add a hover effect for buttons */
-  button:hover {
+}
+
+/* Add a hover effect for buttons */
+button:hover {
     opacity: 0.8;
-  }
-  
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
-  }
-  
-  /* Center the avatar image inside this container */
-  .imgcontainer {
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
+}
+
+/* Avatar image */
+img.avatar {
     width: 10%;
     border-radius: 20%;
-  }
-  
-  /* Add padding to containers */
-  .container {
+}
+
+/* Add padding to containers */
+.container {
     padding: 16px;
-  }
-  
-  /* The "Forgot password" text */
-  span.psw {
+}
+
+/* The "Forgot password" text */
+span.psw {
     float: right;
     padding-top: 16px;
-  }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
     span.psw {
-      display: block;
-      float: none;
+        display: block;
+        float: none;
     }
     .cancelbtn {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .header-images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wireframe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wireframe div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
