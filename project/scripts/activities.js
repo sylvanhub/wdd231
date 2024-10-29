@@ -1,4 +1,3 @@
-// Changed the variable name to avoid conflict
 const activitiesUrl = "https://sylvanhub.github.io/wdd231/project/data/activities.json";
 
 const container = document.querySelector("#hair-materials-container");
@@ -27,18 +26,18 @@ async function fetchHairMaterials() {
     const data = await response.json();
     displayHairMaterials(data.hairMaterials);
   } catch (error) {
-    console.error('Error fetching hair Materials:', error);
+    console.error('Error fetching hair materials:', error);
   }
 }
 
-// Function to display hairMaterials as cards
+// Function to display hair materials as cards
 function displayHairMaterials(hairMaterials) {
   hairMaterials.forEach((item, index) => {
     const card = document.createElement("div");
     card.classList.add("item");
 
     const image = document.createElement("img");
-    image.src = item.image || "https://via.placeholder.com/200";
+    image.src = item.image_url || "https://via.placeholder.com/200";
     image.alt = item.name;
 
     const name = document.createElement("h2");
@@ -52,21 +51,21 @@ function displayHairMaterials(hairMaterials) {
     price.textContent = `₦${item.price}`;
 
     const category = document.createElement("p");
-    category.classList.add("price");
+    category.classList.add("category");
     category.textContent = item.category;
 
     const stock = document.createElement("p");
-    stock.classList.add("price");
+    stock.classList.add("stock");
     stock.textContent = `${item.stock} in Stock`;
 
     const detailsButton = document.createElement("button");
     detailsButton.textContent = "Show More";
     detailsButton.setAttribute("data-index", index);
 
-    // Add click event to show modal with full item description
+    // Add click event to show modal with full item description or fallback
     detailsButton.addEventListener("click", () => {
       modalTitle.textContent = item.name;
-      modalDescription.textContent = item.fullDescription;
+      modalDescription.textContent = item.fullDescription || item.description;
       modal.style.display = 'block';
     });
 

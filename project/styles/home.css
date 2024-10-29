@@ -92,7 +92,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .hero-image {
-        content: url("images/webpimages/imagehome_mobile.webp");
+        content: url("images/imagehome_mobile.webp");
     }
     .hero-content {
         top: 35%;
