@@ -14,9 +14,11 @@
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/style.css">
-<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/activities.css">
 <script src="scripts/weather.js" defer></script>
 <script src="scripts/script.js" defer></script> 
+<!-- <script src="scripts/hairMaterials.js" defer></script>  -->
+<script src="scripts/activities.js" defer></script> 
 </head>
 <body>
 <body>
@@ -39,44 +41,46 @@
         </nav>
     </div>
 
-        <main class="activities-visitors">
-            <section class="john">
-                <img class="Gabriel-img" src="images/barbing_activity.jpg" alt="Mr John">
-                <h2>Mr John</h2>
-            </section>
-            <section class="msg2">
-                <h2>Our Activities</h2>
-                <p>
-                    We are responsible for how beautiful you look. You can trust us above all other salons you've visited. We are experts
-                    in dreadlocks, Ghana weaving, braiding of all kinds, hair pampering, curling, coloring, and styling. We can also give you a nice cute haircut.
-                    Check in for your next hair-do by booking ahead.
-                </p>
-            </section>
-        </main>
-        <footer>
-            <div class="footer-container">
-                <div class="address">
-                    <p class="address-name">Odeh Sylvan Chamber of Commerce</p>
-                    <p>Adabeji, Oluyole</p>
-                    <p>Ibadan, Oyo State, Nigeria</p>
-                </div>
-                <div class="social-media">
-                    <a href="#"><img src="images/icons/youtube.png" alt="Youtube" width="30" height="30"></a>
-                    <a href="#"><img src="images/icons/twitter.png" alt="Twitter" width="30" height="30"></a>
-                    <a href="#"><img src="images/icons/linkedin.png" alt="Instagram" width="30" height="30"></a>
-                </div>
-                <div class="developer">
-                    <p>WDD231 Class Project</p>
-                    <p>Odeh Sylvester</p>
-                    <p class="copyright">
-                        <span class="copyrightIcon">&#169;</span>
-                        <span class="currentyear"></span> 
-                        <span class="authorName">Sylvester Odeh</span> 
-                        <span class="Website">Chamber of Commerce</span>
-                    </p>
-                    <p class="lastModified"></p>
-                </div>
+    <main class="activities-visitors">
+
+        <section id="hair-materials-container">
+
+        </section>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
             </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="address">
+                <p class="address-name">Odeh Sylvan Chamber of Commerce</p>
+                <p>Adabeji, Oluyole</p>
+                <p>Ibadan, Oyo State, Nigeria</p>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="images/icons/youtube.png" alt="Youtube" width="30" height="30"></a>
+                <a href="#"><img src="images/icons/twitter.png" alt="Twitter" width="30" height="30"></a>
+                <a href="#"><img src="images/icons/linkedin.png" alt="Instagram" width="30" height="30"></a>
+            </div>
+            <div class="developer">
+                <p>WDD231 Class Project</p>
+                <p>Odeh Sylvester</p>
+                <p class="copyright">
+                    <span class="copyrightIcon">&#169;</span>
+                    <span class="currentyear"></span> 
+                    <span class="authorName">Sylvester Odeh</span> 
+                    <span class="Website">Chamber of Commerce</span>
+                </p>
+                <p class="lastModified"></p>
+            </div>
+        </div>
         </footer>
     </body>
     </html>

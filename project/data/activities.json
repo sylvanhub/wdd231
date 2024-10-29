@@ -1,257 +1,256 @@
 {
-    "hairMaterials": [
-      {
-        "id": 1,
-        "name": "Premium Human Hair Extensions",
-        "description": "100% unprocessed human hair extensions, available in various lengths and colors.",
-        "price": 150.00,
-        "stock": 50,
-        "category": "extensions",
-        "image_url": "images/hair_extensions.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Braiding Hair",
-        "description": "High-quality synthetic hair for braiding, soft and easy to work with.",
-        "price": 20.00,
-        "stock": 100,
-        "category": "braiding",
-        "image_url": "images/braiding_hair.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Hair Care Products",
-        "description": "A range of hair care products including shampoos, conditioners, and serums.",
-        "price": 25.00,
-        "stock": 75,
-        "category": "care",
-        "image_url": "images/hair_care_products.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Dreadlock Maintenance Kit",
-        "description": "Includes dread wax, a comb, and a spray for maintaining and styling dreadlocks.",
-        "price": 30.00,
-        "stock": 30,
-        "category": "dreadlocks",
-        "image_url": "images/dreadlock_kit.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Hair Clips and Accessories",
-        "description": "Various hair clips, bands, and accessories to style your hair.",
-        "price": 10.00,
-        "stock": 200,
-        "category": "accessories",
-        "image_url": "images/hair_clips.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Wigs",
-        "description": "High-quality wigs made from both synthetic and human hair.",
-        "price": 200.00,
-        "stock": 40,
-        "category": "wigs",
-        "image_url": "images/wigs.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Heat Protectant Spray",
-        "description": "Protect your hair from heat damage caused by styling tools.",
-        "price": 15.00,
-        "stock": 80,
-        "category": "care",
-        "image_url": "images/heat_protectant.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Hair Rollers",
-        "description": "Soft foam rollers for creating curls without heat.",
-        "price": 12.00,
-        "stock": 120,
-        "category": "accessories",
-        "image_url": "images/hair_rollers.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Hair Dryer",
-        "description": "Professional hair dryer with multiple heat and speed settings.",
-        "price": 70.00,
-        "stock": 25,
-        "category": "tools",
-        "image_url": "images/hair_dryer.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Hair Straightener",
-        "description": "Ceramic hair straightener for smooth and sleek hair.",
-        "price": 65.00,
-        "stock": 30,
-        "category": "tools",
-        "image_url": "images/hair_straightener.jpg"
-      },
-      {
-        "id": 11,
-        "name": "Edge Control Gel",
-        "description": "Provides a strong hold for sleek edges.",
-        "price": 8.00,
-        "stock": 150,
-        "category": "styling",
-        "image_url": "images/edge_control.jpg"
-      },
-      {
-        "id": 12,
-        "name": "Scissors and Shears Set",
-        "description": "Professional scissors and shears for precise hair cutting.",
-        "price": 40.00,
-        "stock": 20,
-        "category": "tools",
-        "image_url": "images/scissors.jpg"
-      },
-      {
-        "id": 13,
-        "name": "Braid Cuffs",
-        "description": "Decorative cuffs for adding flair to your braids.",
-        "price": 5.00,
-        "stock": 200,
-        "category": "accessories",
-        "image_url": "images/braid_cuffs.jpg"
-      },
-      {
-        "id": 14,
-        "name": "Hair Color Kit",
-        "description": "At-home hair color kit for vibrant shades.",
-        "price": 35.00,
-        "stock": 40,
-        "category": "coloring",
-        "image_url": "images/hair_color_kit.jpg"
-      },
-      {
-        "id": 15,
-        "name": "Hair Ties",
-        "description": "A pack of soft hair ties to prevent breakage.",
-        "price": 3.00,
-        "stock": 300,
-        "category": "accessories",
-        "image_url": "images/hair_ties.jpg"
-      },
-      {
-        "id": 16,
-        "name": "Dreadlock Beads",
-        "description": "Stylish beads for decorating dreadlocks.",
-        "price": 2.00,
-        "stock": 150,
-        "category": "dreadlocks",
-        "image_url": "images/dreadlock_beads.jpg"
-      },
-      {
-        "id": 17,
-        "name": "Hair Mask Treatment",
-        "description": "Deep conditioning treatment for damaged hair.",
-        "price": 20.00,
-        "stock": 50,
-        "category": "care",
-        "image_url": "images/hair_mask.jpg"
-      },
-      {
-        "id": 18,
-        "name": "Salon Capes",
-        "description": "Professional salon capes for protecting clothing during hair services.",
-        "price": 15.00,
-        "stock": 100,
-        "category": "tools",
-        "image_url": "images/salon_cape.jpg"
-      },
-      {
-        "id": 19,
-        "name": "Cordless Clipper - Model A",
-        "description": "Professional cordless clipper with adjustable blade length and powerful battery.",
-        "price": 120.00,
-        "stock": 15,
-        "category": "clippers",
-        "image_url": "images/cordless_clipper_a.jpg"
-      },
-      {
-        "id": 20,
-        "name": "Cordless Clipper - Model B",
-        "description": "Lightweight cordless clipper ideal for detailed work and easy handling.",
-        "price": 100.00,
-        "stock": 10,
-        "category": "clippers",
-        "image_url": "images/cordless_clipper_b.jpg"
-      },
-      {
-        "id": 21,
-        "name": "Cordless Clipper - Model C",
-        "description": "High-performance cordless clipper with long battery life and multiple speed settings.",
-        "price": 140.00,
-        "stock": 12,
-        "category": "clippers",
-        "image_url": "images/cordless_clipper_c.jpg"
-      },
-      {
-        "id": 22,
-        "name": "Cordless Clipper - Model D",
-        "description": "Durable cordless clipper with ergonomic design for comfortable use.",
-        "price": 110.00,
-        "stock": 8,
-        "category": "clippers",
-        "image_url": "images/cordless_clipper_d.jpg"
-      },
-      {
-        "id": 23,
-        "name": "Cordless Clipper - Model E",
-        "description": "Versatile cordless clipper perfect for home use and professional styling.",
-        "price": 130.00,
-        "stock": 5,
-        "category": "clippers",
-        "image_url": "images/cordless_clipper_e.jpg"
-      },
-      {
-        "id": 24,
-        "name": "Expression Braiding Hair",
-        "description": "Synthetic hair extensions specifically designed for braiding, available in various colors.",
-        "price": 15.00,
-        "stock": 80,
-        "category": "attachments",
-        "image_url": "images/expression_braiding_hair.jpg"
-      },
-      {
-        "id": 25,
-        "name": "Expression Twists Hair",
-        "description": "Soft, lightweight synthetic hair ideal for creating twists and locs.",
-        "price": 18.00,
-        "stock": 60,
-        "category": "attachments",
-        "image_url": "images/expression_twists_hair.jpg"
-      },
-      {
-        "id": 26,
-        "name": "Expression Curly Hair",
-        "description": "High-quality curly synthetic hair extensions for a voluminous look.",
-        "price": 20.00,
-        "stock": 50,
-        "category": "attachments",
-        "image_url": "images/expression_curly_hair.jpg"
-      },
-      {
-        "id": 27,
-        "name": "Expression Straight Hair",
-        "description": "Sleek and straight synthetic hair for natural-looking extensions.",
-        "price": 22.00,
-        "stock": 40,
-        "category": "attachments",
-        "image_url": "images/expression_straight_hair.jpg"
-      },
-      {
-        "id": 28,
-        "name": "Expression Jumbo Braid Hair",
-        "description": "Extra-large synthetic braiding hair for bold styles and long-lasting results.",
-        "price": 25.00,
-        "stock": 30,
-        "category": "attachments",
-        "image_url": "images/expression_jumbo_braid.jpg"
-      }
-    ]
-  }
-  
+  "hairMaterials": [
+    {
+      "id": 1,
+      "name": "Premium Human Hair Extensions",
+      "description": "100% unprocessed human hair extensions, available in various lengths and colors.",
+      "price": 150.00,
+      "stock": 50,
+      "category": "extensions",
+      "image": "images/test/images/barbing_activity.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Braiding Hair",
+      "description": "High-quality synthetic hair for braiding, soft and easy to work with.",
+      "price": 20.00,
+      "stock": 100,
+      "category": "braiding",
+      "image": "images/braiding_hair.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hair Care Products",
+      "description": "A range of hair care products including shampoos, conditioners, and serums.",
+      "price": 25.00,
+      "stock": 75,
+      "category": "care",
+      "image": "images/hair_care_products.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dreadlock Maintenance Kit",
+      "description": "Includes dread wax, a comb, and a spray for maintaining and styling dreadlocks.",
+      "price": 30.00,
+      "stock": 30,
+      "category": "dreadlocks",
+      "image": "images/dreadlock_kit.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hair Clips and Accessories",
+      "description": "Various hair clips, bands, and accessories to style your hair.",
+      "price": 10.00,
+      "stock": 200,
+      "category": "accessories",
+      "image": "images/hair_clips.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Wigs",
+      "description": "High-quality wigs made from both synthetic and human hair.",
+      "price": 200.00,
+      "stock": 40,
+      "category": "wigs",
+      "image": "images/wigs.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Heat Protectant Spray",
+      "description": "Protect your hair from heat damage caused by styling tools.",
+      "price": 15.00,
+      "stock": 80,
+      "category": "care",
+      "image": "images/heat_protectant.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hair Rollers",
+      "description": "Soft foam rollers for creating curls without heat.",
+      "price": 12.00,
+      "stock": 120,
+      "category": "accessories",
+      "image": "images/hair_rollers.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Hair Dryer",
+      "description": "Professional hair dryer with multiple heat and speed settings.",
+      "price": 70.00,
+      "stock": 25,
+      "category": "tools",
+      "image": "images/hair_dryer.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Hair Straightener",
+      "description": "Ceramic hair straightener for smooth and sleek hair.",
+      "price": 65.00,
+      "stock": 30,
+      "category": "tools",
+      "image": "images/hair_straightener.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Edge Control Gel",
+      "description": "Provides a strong hold for sleek edges.",
+      "price": 8.00,
+      "stock": 150,
+      "category": "styling",
+      "image": "images/edge_control.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Scissors and Shears Set",
+      "description": "Professional scissors and shears for precise hair cutting.",
+      "price": 40.00,
+      "stock": 20,
+      "category": "tools",
+      "image": "images/scissors.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Braid Cuffs",
+      "description": "Decorative cuffs for adding flair to your braids.",
+      "price": 5.00,
+      "stock": 200,
+      "category": "accessories",
+      "image": "images/braid_cuffs.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hair Color Kit",
+      "description": "At-home hair color kit for vibrant shades.",
+      "price": 35.00,
+      "stock": 40,
+      "category": "coloring",
+      "image": "images/hair_color_kit.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Hair Ties",
+      "description": "A pack of soft hair ties to prevent breakage.",
+      "price": 3.00,
+      "stock": 300,
+      "category": "accessories",
+      "image": "images/hair_ties.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Dreadlock Beads",
+      "description": "Stylish beads for decorating dreadlocks.",
+      "price": 2.00,
+      "stock": 150,
+      "category": "dreadlocks",
+      "image": "images/dreadlock_beads.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Hair Mask Treatment",
+      "description": "Deep conditioning treatment for damaged hair.",
+      "price": 20.00,
+      "stock": 50,
+      "category": "care",
+      "image": "images/hair_mask.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Salon Capes",
+      "description": "Professional salon capes for protecting clothing during hair services.",
+      "price": 15.00,
+      "stock": 100,
+      "category": "tools",
+      "image": "images/salon_cape.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Cordless Clipper - Model A",
+      "description": "Professional cordless clipper with adjustable blade length and powerful battery.",
+      "price": 120.00,
+      "stock": 15,
+      "category": "clippers",
+      "image": "images/cordless_clipper_a.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Cordless Clipper - Model B",
+      "description": "Lightweight cordless clipper ideal for detailed work and easy handling.",
+      "price": 100.00,
+      "stock": 10,
+      "category": "clippers",
+      "image": "images/cordless_clipper_b.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Cordless Clipper - Model C",
+      "description": "High-performance cordless clipper with long battery life and multiple speed settings.",
+      "price": 140.00,
+      "stock": 12,
+      "category": "clippers",
+      "image": "images/cordless_clipper_c.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Cordless Clipper - Model D",
+      "description": "Durable cordless clipper with ergonomic design for comfortable use.",
+      "price": 110.00,
+      "stock": 8,
+      "category": "clippers",
+      "image": "images/cordless_clipper_d.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Cordless Clipper - Model E",
+      "description": "Versatile cordless clipper perfect for home use and professional styling.",
+      "price": 130.00,
+      "stock": 5,
+      "category": "clippers",
+      "image": "images/cordless_clipper_e.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Expression Braiding Hair",
+      "description": "Synthetic hair extensions specifically designed for braiding, available in various colors.",
+      "price": 15.00,
+      "stock": 80,
+      "category": "attachments",
+      "image": "images/expression_braiding_hair.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Expression Twists Hair",
+      "description": "Soft, lightweight synthetic hair ideal for creating twists and locs.",
+      "price": 18.00,
+      "stock": 60,
+      "category": "attachments",
+      "image": "images/expression_twists_hair.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Expression Curly Hair",
+      "description": "High-quality curly synthetic hair extensions for a voluminous look.",
+      "price": 20.00,
+      "stock": 50,
+      "category": "attachments",
+      "image": "images/expression_curly_hair.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Expression Straight Hair",
+      "description": "Sleek and straight synthetic hair for natural-looking extensions.",
+      "price": 22.00,
+      "stock": 40,
+      "category": "attachments",
+      "image": "images/expression_straight_hair.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Expression Jumbo Braid Hair",
+      "description": "Extra-large synthetic braiding hair for bold styles and long-lasting results.",
+      "price": 25.00,
+      "stock": 30,
+      "category": "attachments",
+      "image": "images/expression_jumbo_braid.jpg"
+    }
+  ]
+}
