@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Premium Human Hair Extensions",
         "description": "100% unprocessed human hair extensions, available in various lengths and colors.",
-        "price": 150.00,
+        "price": 15000.00,
         "stock": 50,
         "category": "extensions",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/77/524128/1.jpg?9339"
@@ -13,8 +13,8 @@
         "id": 2,
         "name": "Braiding Hair",
         "description": "High-quality synthetic hair for braiding, soft and easy to work with.",
-        "price": 20.00,
-        "stock": 100,
+        "price": 2000.00,
+        "stock": 10,
         "category": "braiding",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/22/3912923/1.jpg?7387"
       },
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "Hair Care Products",
         "description": "A range of hair care products including shampoos, conditioners, and serums.",
-        "price": 25.00,
+        "price": 2500.00,
         "stock": 75,
         "category": "care",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/26/3135042/1.jpg?2270"
@@ -31,7 +31,7 @@
         "id": 4,
         "name": "Dreadlock Maintenance Kit",
         "description": "Includes dread wax, a comb, and a spray for maintaining and styling dreadlocks.",
-        "price": 30.00,
+        "price": 30000.00,
         "stock": 30,
         "category": "dreadlocks",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/49/1466913/1.jpg?5387"
@@ -40,7 +40,7 @@
         "id": 5,
         "name": "Hair Clips and Accessories",
         "description": "Various hair clips, bands, and accessories to style your hair.",
-        "price": 10.00,
+        "price": 1000.00,
         "stock": 200,
         "category": "accessories",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/26/0561553/1.jpg?5074"
@@ -49,7 +49,7 @@
         "id": 6,
         "name": "Wigs",
         "description": "High-quality wigs made from both synthetic and human hair.",
-        "price": 200.00,
+        "price": 20000.00,
         "stock": 40,
         "category": "wigs",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/37/9461552/1.jpg?1072"
@@ -58,7 +58,7 @@
         "id": 7,
         "name": "Heat Protectant Spray",
         "description": "Protect your hair from heat damage caused by styling tools.",
-        "price": 15.00,
+        "price": 1000.00,
         "stock": 80,
         "category": "care",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/39/3736663/1.jpg?1834"
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Hair Rollers",
         "description": "Soft foam rollers for creating curls without heat.",
-        "price": 12.00,
+        "price": 1200.00,
         "stock": 120,
         "category": "accessories",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/86/3121832/1.jpg?9252"
@@ -76,7 +76,7 @@
         "id": 9,
         "name": "Hair Dryer",
         "description": "Professional hair dryer with multiple heat and speed settings.",
-        "price": 70.00,
+        "price": 7000.00,
         "stock": 25,
         "category": "tools",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/57/7799471/1.jpg?1827"
@@ -85,7 +85,7 @@
         "id": 10,
         "name": "Hair Straightener",
         "description": "Ceramic hair straightener for smooth and sleek hair.",
-        "price": 65.00,
+        "price": 6500.00,
         "stock": 30,
         "category": "tools",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/33/3071512/1.jpg?2101"
@@ -94,7 +94,7 @@
         "id": 11,
         "name": "Edge Control Gel",
         "description": "Provides a strong hold for sleek edges.",
-        "price": 8.00,
+        "price": 8000.00,
         "stock": 150,
         "category": "styling",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/8014612/1.jpg?5791"
@@ -104,7 +104,7 @@
         "id": 14,
         "name": "Hair Color Kit",
         "description": "At-home hair color kit for vibrant shades.",
-        "price": 35.00,
+        "price": 3500.00,
         "stock": 40,
         "category": "coloring",
         "image_url": "https://www.jumia.com.ng/generic-4pcs-hair-color-dye-bowl-tool-kit-twin-quality-brush-set-253115322.html"
@@ -115,7 +115,7 @@
         "id": 19,
         "name": "Cordless Clipper - Model A",
         "description": "Professional cordless clipper with adjustable blade length and powerful battery.",
-        "price": 120.00,
+        "price": 12000.00,
         "stock": 15,
         "category": "clippers",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/83/628608/1.jpg?1336"
@@ -124,7 +124,7 @@
         "id": 20,
         "name": "Cordless Clipper - Model B",
         "description": "Lightweight cordless clipper ideal for detailed work and easy handling.",
-        "price": 100.00,
+        "price": 10000.00,
         "stock": 10,
         "category": "clippers",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/8014612/1.jpg?5791"
@@ -133,7 +133,7 @@
         "id": 21,
         "name": "Cordless Clipper - Model C",
         "description": "High-performance cordless clipper with long battery life and multiple speed settings.",
-        "price": 140.00,
+        "price": 14000.00,
         "stock": 12,
         "category": "clippers",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/04/6146232/1.jpg?7334"
@@ -142,7 +142,7 @@
         "id": 22,
         "name": "Cordless Clipper - Model D",
         "description": "Durable cordless clipper with ergonomic design for comfortable use.",
-        "price": 110.00,
+        "price": 11000.00,
         "stock": 8,
         "category": "clippers",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/94/227667/1.jpg?8796"
@@ -151,7 +151,7 @@
         "id": 23,
         "name": "Cordless Clipper - Model E",
         "description": "Versatile cordless clipper perfect for home use and professional styling.",
-        "price": 130.00,
+        "price": 13000.00,
         "stock": 5,
         "category": "clippers",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/60/6332201/1.jpg?2553"
@@ -161,7 +161,7 @@
         "id": 26,
         "name": "Expression Curly Hair",
         "description": "High-quality curly synthetic hair extensions for a voluminous look.",
-        "price": 20.00,
+        "price": 20000.00,
         "stock": 50,
         "category": "attachments",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/50/7454972/1.jpg?7887"
@@ -171,7 +171,7 @@
         "id": 28,
         "name": "Expression Jumbo Braid Hair",
         "description": "Extra-large synthetic braiding hair for bold styles and long-lasting results.",
-        "price": 25.00,
+        "price": 25000.00,
         "stock": 30,
         "category": "attachments",
         "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/58/7095101/4.jpg?2288"
