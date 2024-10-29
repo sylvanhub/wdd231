@@ -7,7 +7,7 @@
         "price": 150.00,
         "stock": 50,
         "category": "extensions",
-        "image": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/65/233407/4.jpg?5810g"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/77/524128/1.jpg?9339"
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "price": 20.00,
         "stock": 100,
         "category": "braiding",
-        "image": "images/braiding_hair.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/22/3912923/1.jpg?7387"
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "price": 25.00,
         "stock": 75,
         "category": "care",
-        "image": "images/hair_care_products.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/26/3135042/1.jpg?2270"
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "price": 30.00,
         "stock": 30,
         "category": "dreadlocks",
-        "image": "images/dreadlock_kit.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/49/1466913/1.jpg?5387"
       },
       {
         "id": 5,
@@ -43,7 +43,7 @@
         "price": 10.00,
         "stock": 200,
         "category": "accessories",
-        "image": "images/hair_clips.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/26/0561553/1.jpg?5074"
       },
       {
         "id": 6,
@@ -52,7 +52,7 @@
         "price": 200.00,
         "stock": 40,
         "category": "wigs",
-        "image": "images/wigs.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-26-bone-straight-wig-with-kim-k-closure-255164973.html"
       },
       {
         "id": 7,
@@ -61,7 +61,7 @@
         "price": 15.00,
         "stock": 80,
         "category": "care",
-        "image": "images/heat_protectant.jpg"
+        "image_url": "https://www.jumia.com.ng/tresemme-thermal-heat-protectant-spray-8oz-366637393.html"
       },
       {
         "id": 8,
@@ -70,7 +70,7 @@
         "price": 12.00,
         "stock": 120,
         "category": "accessories",
-        "image": "images/hair_rollers.jpg"
+        "image_url": "https://www.jumia.com.ng/10-bendable-hair-curlersrollers-multi-coloured-yinli-mpg3096978.html"
       },
       {
         "id": 9,
@@ -79,7 +79,7 @@
         "price": 70.00,
         "stock": 25,
         "category": "tools",
-        "image": "images/hair_dryer.jpg"
+        "image_url": "https://www.jumia.com.ng/deliya-hair-dryer-blow-dryer-hair-tools-nail-clipper-set-6-gifts-174997775.html"
       },
       {
         "id": 10,
@@ -88,7 +88,7 @@
         "price": 65.00,
         "stock": 30,
         "category": "tools",
-        "image": "images/hair_straightener.jpg"
+        "image_url": "https://www.jumia.com.ng/hot-hair-straightener-comb-generic-mpg3092426.html"
       },
       {
         "id": 11,
@@ -97,7 +97,7 @@
         "price": 8.00,
         "stock": 150,
         "category": "styling",
-        "image": "images/edge_control.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/8014612/1.jpg?5791"
       },
       {
         "id": 12,
@@ -106,7 +106,7 @@
         "price": 40.00,
         "stock": 20,
         "category": "tools",
-        "image": "images/scissors.jpg"
+        "image_url": "https://www.jumia.com.ng/fashion-unisex-braided-leather-stainless-steel-cuff-bangle-bracelet-wristband-11057041.html"
       },
       {
         "id": 13,
@@ -115,7 +115,7 @@
         "price": 5.00,
         "stock": 200,
         "category": "accessories",
-        "image": "images/braid_cuffs.jpg"
+        "image_url": "https://www.jumia.com.ng/fashion-unisex-braided-leather-stainless-steel-cuff-bangle-bracelet-wristband-11057041.html"
       },
       {
         "id": 14,
@@ -124,7 +124,7 @@
         "price": 35.00,
         "stock": 40,
         "category": "coloring",
-        "image": "images/hair_color_kit.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-4pcs-hair-color-dye-bowl-tool-kit-twin-quality-brush-set-253115322.html"
       },
       {
         "id": 15,
@@ -133,7 +133,7 @@
         "price": 3.00,
         "stock": 300,
         "category": "accessories",
-        "image": "images/hair_ties.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-100-pcs-colorful-baby-girls-elastic-hair-ties-hair-bands-130729351.html"
       },
       {
         "id": 16,
@@ -142,7 +142,7 @@
         "price": 2.00,
         "stock": 150,
         "category": "dreadlocks",
-        "image": "images/dreadlock_beads.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-mixed-100pcs-1012mm-vintage-natural-wooden-spacer-beads-wood-big-hole-loose-beads-dreadlock-br-diy-rame-rosary-let-jewelry-277295111.html"
       },
       {
         "id": 17,
@@ -151,16 +151,7 @@
         "price": 20.00,
         "stock": 50,
         "category": "care",
-        "image": "images/hair_mask.jpg"
-      },
-      {
-        "id": 18,
-        "name": "Salon Capes",
-        "description": "Professional salon capes for protecting clothing during hair services.",
-        "price": 15.00,
-        "stock": 100,
-        "category": "tools",
-        "image": "images/salon_cape.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-keratin-hair-mask-treatment-milk-cream-292152350.html"
       },
       {
         "id": 19,
@@ -169,7 +160,7 @@
         "price": 120.00,
         "stock": 15,
         "category": "clippers",
-        "image": "images/cordless_clipper_a.jpg"
+        "image_url": "https://www.jumia.com.ng/kiki-new-gain-stainless-steel-cordless-rechargeable-hair-clipper-80682638.html"
       },
       {
         "id": 20,
@@ -178,7 +169,7 @@
         "price": 100.00,
         "stock": 10,
         "category": "clippers",
-        "image": "images/cordless_clipper_b.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/8014612/1.jpg?5791"
       },
       {
         "id": 21,
@@ -187,7 +178,7 @@
         "price": 140.00,
         "stock": 12,
         "category": "clippers",
-        "image": "images/cordless_clipper_c.jpg"
+        "image_url": "https://www.jumia.com.ng/oraimo-smartclipper-2-self-sharpening-blades-precise-hair-cut-240-minute-runtime-cordless-hair-clipper-232641640.html"
       },
       {
         "id": 22,
@@ -196,7 +187,7 @@
         "price": 110.00,
         "stock": 8,
         "category": "clippers",
-        "image": "images/cordless_clipper_d.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-cordless-rechargeable-hair-clipper-usb-black-76672249.html"
       },
       {
         "id": 23,
@@ -205,7 +196,7 @@
         "price": 130.00,
         "stock": 5,
         "category": "clippers",
-        "image": "images/cordless_clipper_e.jpg"
+        "image_url": "https://www.jumia.com.ng/expression-hair-attachment-rich-braid-set-of-6-color-1-102233606.html"
       },
       {
         "id": 24,
@@ -214,7 +205,7 @@
         "price": 15.00,
         "stock": 80,
         "category": "attachments",
-        "image": "images/expression_braiding_hair.jpg"
+        "image_url": "https://www.jumia.com.ng/expression-hair-attachment-rich-braid-set-of-6-color-1-102233606.html"
       },
       {
         "id": 25,
@@ -223,7 +214,7 @@
         "price": 18.00,
         "stock": 60,
         "category": "attachments",
-        "image": "images/expression_twists_hair.jpg"
+        "image_url": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/91/0408882/1.jpg?3420.jpg"
       },
       {
         "id": 26,
@@ -232,7 +223,7 @@
         "price": 20.00,
         "stock": 50,
         "category": "attachments",
-        "image": "images/expression_curly_hair.jpg"
+        "image_url": "https://www.jumia.com.ng/generic-super-soft-full-curly-bundles-weavon-for-full-head-fix-279454705.html"
       },
       {
         "id": 27,
@@ -241,7 +232,7 @@
         "price": 22.00,
         "stock": 40,
         "category": "attachments",
-        "image": "images/expression_straight_hair.jpg"
+        "image_url": "https://www.jumia.com.ng/fashion-luxury-bone-straight-wig-with-closure-22-56728142.html"
       },
       {
         "id": 28,
@@ -250,7 +241,7 @@
         "price": 25.00,
         "stock": 30,
         "category": "attachments",
-        "image": "images/expression_jumbo_braid.jpg"
+        "image_url": "https://www.jumia.com.ng/fashion-ombre-jumbo-braiding-hair-extensions-24inches100gpack-101590785.html"
       }
     ]
   }

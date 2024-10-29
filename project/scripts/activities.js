@@ -1,4 +1,6 @@
-const url = "https://sylvanhub.github.io/wdd231/project/data/activities.json";
+// Changed the variable name to avoid conflict
+const activitiesUrl = "https://sylvanhub.github.io/wdd231/project/data/activities.json";
+
 const container = document.querySelector("#hair-materials-container");
 const modal = document.querySelector("#myModal");
 const modalTitle = document.querySelector("#modal-title");
@@ -18,7 +20,7 @@ window.addEventListener("click", (event) => {
 // Async function to fetch JSON data and display item cards
 async function fetchHairMaterials() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(activitiesUrl); // Updated variable name
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
